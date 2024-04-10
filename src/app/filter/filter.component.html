@@ -1,0 +1,14 @@
+<table>
+  <thead>
+      <tr>
+          <th style="color: rgb(18, 72, 130);">Food Name</th>
+          <!-- Add other headers if needed -->
+      </tr>
+  </thead>
+  <tbody>
+      <tr *ngFor="let foodItem of foods">
+          <td style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">{{ foodItem.FoodName }}</td>
+          <!-- Add other cells for additional properties if needed -->
+      </tr>
+  </tbody>
+</table>

@@ -1,0 +1,33 @@
+<!-- viewfood.component.html -->
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Food Name</th>
+      <th>Quantity</th>
+      <th>Meal Name</th>
+      <th>Created On</th>
+      <th>Unit Size</th>
+
+    </tr>
+  </thead>
+  <tbody>
+
+    <td>{{ foods?.FoodName }}</td>
+    <td>{{ foods?.Quantity }}</td>
+    <td>{{ foods?.MealName }}</td>
+    <td>{{ foods?.CreatedOn }}</td>
+    <td>{{ foods?.UnitSize }}</td>
+    <div>
+      <td><a routerLinkActive="Active"[routerLink]="['/Delete2', userid,foods?.CreatedOn]">Delete</a>
+    </div>
+      <!-- <td><a routerLinkActive="Active"[routerLink]="['/FoodDetails',item.FoodName, userid]">View Food</a></td> -->
+
+      <!-- <td>
+        <button (click)="viewDetails(item.foodName)">Details</button> |
+        <button (click)="deleteFood(item.createdOn)">Delete</button>
+      </td> -->
+
+  </tbody>
+</table>
+

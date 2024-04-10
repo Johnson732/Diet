@@ -1,0 +1,269 @@
+/* 
+@media (max-width: 480px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .addfood {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  label {
+    font-size: medium;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #0941b2;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  select {
+    font-size: small;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #0941b2;
+    padding: 0px;
+    margin: 0px;
+  }
+  option {
+    font-size: small;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #0941b2;
+    padding: 0px;
+    margin: 0px;
+  }
+  input {
+    padding: 0px;
+    background-color: #e7eff6;
+    border-color: #e7eff6;
+    border-radius: 10px;
+    margin: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(14, 48, 170);
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .card {
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #9fbcf7;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+  }
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .addfood {
+    align-items: flex-start;
+  }
+  label {
+    font-size: medium;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #0941b2;
+    padding: 0px;
+    margin: 0px;
+  }
+  select {
+    font-size: medium;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #0941b2;
+    padding: 0px;
+    margin: 0px;
+  }
+  option {
+    font-size: medium;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #0941b2;
+    padding: 0px;
+    margin: 0px;
+  }
+  input {
+    padding: 5px;
+    background-color: #e7eff6;
+    border-color: #e7eff6;
+    border-radius: 15px;
+    margin: 5px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(14, 48, 170);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .card {
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #9fbcf7;
+        border-radius: 20px;
+        align-items: center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 100%;
+    }
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .addfood {
+    align-items: flex-start;
+  }
+  label {
+    font-size: medium;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #0941b2;
+    padding: 0px;
+    margin: 0px;
+  }
+  select {
+    font-size: medium;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #0941b2;
+    padding: 0px;
+    margin: 0px;
+  }
+  option {
+    font-size: medium;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #0941b2;
+    padding: 0px;
+    margin: 0px;
+  }
+  input {
+    padding: 5px;
+    background-color: #e7eff6;
+    border-color: #e7eff6;
+    border-radius: 15px;
+    margin: 5px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(14, 48, 170);
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .card {
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #9fbcf7;
+        border-radius: 20px;
+        align-items: center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 100%;
+    }
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .addfood {
+    align-items: flex-start;
+  }
+  label {
+    font-size: large;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #0941b2;
+    padding: 0px;
+    margin: 0px;
+  }
+  select {
+    font-size: large;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #0941b2;
+    padding: 0px;
+    margin: 0px;
+  }
+  option {
+    font-size: large;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #0941b2;
+    padding: 0px;
+    margin: 0px;
+  }
+  input {
+    padding: 5px;
+    background-color: #e7eff6;
+    border-color: #e7eff6;
+    border-radius: 15px;
+    margin: 10px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(14, 48, 170);
+  }
+}
+
+@media (min-width: 1281px) {
+    .card {
+        margin: 10%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #9fbcf7;
+        border-radius: 20px;
+        align-items: center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 100%;
+    }
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .addfood {
+    align-items: center;
+  }
+  label {
+    font-size: xx-large;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #0941b2;
+    padding: 0px;
+    margin: 0px;
+  }
+  select {
+    font-size: xx-large;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #0941b2;
+    padding: 0px;
+    margin: 0px;
+  }
+  option {
+    font-size: xx-large;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #0941b2;
+    padding: 0px;
+    margin: 0px;
+  }
+  input {
+    padding: 5px;
+    background-color: #e7eff6;
+    border-color: #e7eff6;
+    border-radius: 15px;
+    margin: 10px;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(14, 48, 170);
+  }
+} */

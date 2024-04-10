@@ -1,0 +1,178 @@
+/*
+@media (max-width: 480px) {
+  .content {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+      overflow: scroll;
+  }
+
+  .tag {
+      font-size: small;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      padding: 10px;
+      margin: 10px;
+      margin-left: 0px;
+      width: 100%;
+  }
+
+  .qn {
+      color: rgb(47, 17, 17);
+      font-size: small;
+  }
+
+  .ans li {
+      color: rgb(47, 94, 181);
+      width: 100%;
+      font-size: small;
+  }
+
+  .qn li {
+      width: 100%;
+      font-size: small;
+  }
+
+  .tag li a {
+      color: #10b43c;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .content {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+      overflow: scroll;
+  }
+
+  .tag {
+      font-size: large;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      padding: 0px;
+      margin: 10px;
+      margin-left: 0px;
+      width: 100%;
+  }
+
+  .qn {
+      width: 100%;
+      color: rgb(47, 17, 17);
+      font-size: large;
+  }
+
+  .ans li {
+      color: rgb(47, 94, 181);
+      font-size: large;
+  }
+
+  .qn li {
+      width: 100%;
+      font-size: large;
+  }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .content {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+      overflow: scroll;
+  }
+
+  .tag {
+      font-size: large;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      padding: 0px;
+      margin: 10px;
+      margin-left: 0px;
+      width: 100%;
+  }
+
+  .qn {
+      width: 100%;
+      color: rgb(47, 17, 17);
+      font-size: large;
+  }
+
+  .ans li {
+      color: rgb(47, 94, 181);
+      font-size: large;
+  }
+
+  .qn li {
+      width: 100%;
+      font-size: large;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .content {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start;
+      overflow: scroll;
+  }
+
+  .tag {
+      font-size: large;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      padding: 10px;
+      margin: 10px;
+      margin-left: 0px;
+  }
+
+  .qn {
+      color: rgb(47, 17, 17);
+  }
+
+  .ans {
+      color: rgb(47, 94, 181);
+  }
+
+  .tag li {
+      margin: 0px;
+      padding: 10px;
+  }
+
+      .tag li a {
+          color: #10b43c;
+      }
+}
+
+@media (min-width: 1281px) {
+  .content {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+      overflow: scroll;
+  }
+
+  .tag {
+      font-size: xx-large;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      padding: 0px;
+      margin: 10px;
+      margin-left: 0px;
+      width: 100%;
+  }
+
+  .qn {
+      width: 100%;
+      color: rgb(47, 17, 17);
+      font-size: xx-large;
+  }
+
+  .ans li {
+      color: rgb(47, 94, 181);
+      font-size: xx-large;
+  }
+
+  .qn li {
+      width: 100%;
+      font-size: xx-large;
+  }
+}} */

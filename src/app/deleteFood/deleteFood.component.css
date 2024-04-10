@@ -1,0 +1,194 @@
+.content {
+  width: 100%;
+}
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .content {
+      display: flex;
+      justify-content:flex-start ;
+      align-items: flex-start;
+      overflow: scroll;
+  }
+
+  table{
+      padding:0px;
+      background-color: black;
+      margin: 10px;
+      background-color: antiquewhite;
+  }
+  thead{
+      font-size: small;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      background-color: rgb(145, 191, 255);
+      color: #002ed3;
+  }
+  tbody{
+      font-size: small;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: #000000;
+      background-color: rgb(162, 184, 229);
+  }
+  th,td{
+      margin: 5px;
+      padding: 5px;
+
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+  .content{
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      overflow: scroll;
+  }
+  table{
+      padding:0px;
+      background-color: black;
+      margin: 10px;
+      background-color: antiquewhite;
+  }
+  thead{
+      font-size: small;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      background-color: rgb(145, 191, 255);
+      color: #002ed3;
+  }
+  tbody{
+      font-size: small;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: #000000;
+      background-color: rgb(162, 184, 229);
+  }
+  th,td{
+      margin: 5px;
+      padding: 5px;
+
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .content{
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      overflow: scroll;
+
+  }
+  table{
+      padding:0px;
+      background-color: black;
+      margin: 10px;
+      width: auto;
+      height: auto;
+      background-color: antiquewhite;
+  }
+  thead{
+      font-size: large;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      padding: 10px;
+      margin: 10px;
+      background-color: rgb(145, 191, 255);
+      color: #002ed3;
+  }
+  tbody{
+      font-size: large;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      margin: 5%;
+      padding: 5%;
+      color: #000000;
+      background-color: rgb(162, 184, 229);
+  }
+  th{
+      margin: 5px;
+      padding: 5px;
+  }td{
+      margin: 5px;
+      padding: 5px;
+  }
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .content{
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      overflow: scroll;
+
+  }
+  table{
+      padding:0px;
+      background-color: black;
+      margin: 10px;
+      width: auto;
+      height: auto;
+      background-color: antiquewhite;
+  }
+  thead{
+      font-size: large;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      padding: 10px;
+      margin: 10px;
+      background-color: rgb(145, 191, 255);
+      color: #002ed3;
+  }
+  tbody{
+      font-size: large;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      margin: 10%;
+      padding: 10%;
+      color: #000000;
+      background-color: rgb(162, 184, 229);
+  }
+  th{
+      margin: 5px;
+      padding: 5px;
+  }td{
+      margin: 5px;
+      padding: 5px;
+  }
+
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+  .content{
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+
+  }
+  table{
+      padding:0px;
+      background-color: black;
+      margin: 10px;
+      background-color: antiquewhite;
+  }
+  thead{
+      font-size: large;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      padding: 10px;
+      margin: 10px;
+      background-color: rgb(145, 191, 255);
+      color: #002ed3;
+  }
+  tbody{
+      font-size: large;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      margin: 10%;
+      padding: 10%;
+      color: #000000;
+      background-color: rgb(162, 184, 229);
+  }
+  th{
+      margin: 5px;
+      padding: 5px;
+  }td{
+      margin: 5px;
+      padding: 5px;
+  }
+
+}

@@ -1,0 +1,110 @@
+
+<form class="container was-validated card mt-5"style="width: 60%;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;background-color:rgb(175, 207, 234)" #addFoodForm="ngForm" (submit)="onSubmit(addFoodForm)">
+  <div class="card-body">
+    <div class="form-group">
+      <input type="text"readonly class="form-control-plaintext" id="UserId" name="UserId" [value]="formData.UserId"/>
+    </div>
+    <div class="form-group">
+      <label for="MealId">Meal</label><br>
+      <select for="MealId"class="form-control is-invalid"name="MealId"[(ngModel)]="formData.MealId" required>
+        <option value="1">Breakfast</option>
+        <option value="2">Lunch</option>
+        <option value="3">Dinner</option>
+      </select></div>
+
+
+    <div class="form-group">
+      <label for="FoodName"class="form-label">FoodName</label><br>
+      <input type="text"for="FoodName"id="FoodName"class="form-control is-invalid" name="FoodName" [(ngModel)]="formData.FoodName"  pattern="[A-Z a-z]+" title="FoodName must be letters"required/>
+
+    </div>
+
+    <div class="form-group">
+      <label for="ServingSize">ServingSize</label><br>
+      <select for="ServingSize"class="form-control"name="ServingSize"[(ngModel)]="formData.ServingSize" required>
+        <option value="1">50 gm</option>
+        <option value="2">100 gm</option>
+        <option value="3">250 gm</option>
+        <option value="4">500 gm</option>
+        <option value="5">1000 gm</option>
+      </select>
+    </div>
+
+
+    <div class="form-group">
+      <label for="Quantity">Quantity</label><br>
+      <input type="number"for="Quantity"class="form-control"name="Quantity"[(ngModel)]="formData.Quantity" required /><br>
+    </div>
+
+
+    <div *ngIf="foodError" class="text-danger">{{ foodError }}</div>
+    <div *ngIf="foodsuccess" class="text-success">{{ foodsuccess }}</div>
+
+
+    <button type="submit" class="btn btn-primary mt-2">Create</button>
+
+  </div>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <html>
+  <head>
+    <link rel="stylesheet" href="./addFood.component.css" />
+  </head>
+  <body>
+    <form #addFoodForm="ngForm" (submit)="onSubmit(addFoodForm)">
+
+      <input
+        type="hidden"
+        id="UserId"
+        name="UserId"
+        [value]="formData.UserId"
+      />
+
+      <label for="MealId">Meal</label><br>
+      <select for="MealId"name="MealId"[(ngModel)]="formData.MealId" required>
+        <option value="1">Breakfast</option>
+        <option value="2">Lunch</option>
+        <option value="3">Dinner</option>
+      </select><br>
+
+      <label for="FoodName">FoodName</label><br>
+      <input
+        for="FoodName"
+        name="FoodName"
+        [(ngModel)]="formData.FoodName"
+        required
+        pattern="[A-Z a-z]+"
+        title="FoodName must be letters"
+      /><br>
+
+      <label for="ServingSize">ServingSize</label><br>
+      <select for="ServingSize"name="ServingSize"[(ngModel)]="formData.ServingSize" required>
+        <option value="1">50 gm</option>
+        <option value="2">100 gm</option>
+        <option value="3">250 gm</option>
+        <option value="4">500 gm</option>
+        <option value="5">1000 gm</option>
+      </select>
+      <br>
+      <label for="Quantity">Quantity</label><br>
+      <input for="Quantity"name="Quantity"[(ngModel)]="formData.Quantity" required /><br>
+      <span for="Quantity" class="text-danger"></span>
+      <div *ngIf="foodError" class="text-danger">{{ foodError }}</div>
+      <input type="submit" value="Create" class="btn btn-primary" />
+
+    </form>
+  </body>
+</html> -->

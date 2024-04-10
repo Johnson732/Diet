@@ -1,0 +1,58 @@
+<div class="table-responsive">
+  <table class="table "style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;background-color:rgb(175, 207, 234)">
+    <thead class="table-primary">
+      <tr>
+        <th scope="col">Food Name</th>
+        <th scope="col">Quantity</th>
+        <th scope="col">Meal Name</th>
+        <th scope="col">Created On</th>
+        <th scope="col">Unit Size</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of foods">
+        <td>{{ item.FoodName }}</td>
+        <td>{{ item.Quantity }}</td>
+        <td>{{ item.MealName }}</td>
+
+        <td>{{ item.CreatedOn }}</td>
+        <td>{{ item.UnitSize}}</td>
+        <td><a routerLinkActive="Active"[routerLink]="['/FoodDetails',item.FoodName, userid]">View Food</a></td>
+        <td><a routerLinkActive="Active"[routerLink]="['/DeleteFood',userid,item.CreatedOn]">Delete</a></td>
+
+
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+<!--
+<table class="table">
+  <thead>
+    <tr>
+      <th>Food Name</th>
+      <th>Quantity</th>
+      <th>Meal Name</th>
+      <th>Created On</th>
+      <th>Unit Size</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of foods">
+      <td>{{ item.FoodName }}</td>
+      <td>{{ item.Quantity }}</td>
+      <td>{{ item.MealName }}</td>
+
+      <td>{{ item.CreatedOn }}</td>
+      <td>{{ item.UnitSize}}</td>
+      <td><a routerLinkActive="Active"[routerLink]="['/FoodDetails',item.FoodName, userid]">View Food</a></td>
+      <td><a routerLinkActive="Active"[routerLink]="['/DeleteFood',userid,item.CreatedOn]">Delete</a></td>
+
+
+    </tr>
+  </tbody>
+</table>
+ -->
